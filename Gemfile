@@ -39,14 +39,12 @@ gem 'dotenv-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'byebug'
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'rspec-rails', '~> 3.7'
   gem 'capybara'
-  gem "rack_session_access"
-
 end
 
 # Access an IRB console on exception pages or by using <%= console %> in views
